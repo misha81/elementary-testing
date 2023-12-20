@@ -1,0 +1,100 @@
+#result-ans-correct {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: green;
+}
+
+#result-ans-wrong {
+    position: relative;
+    top: 70px;
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    color: darkred;
+}
+
+#result-btn {
+    display: flex;
+    position: relative;
+    left: 32%;
+    top: 100px;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 20px;
+    font-size: 50px;
+    padding: 45px;
+    border: 0;
+    box-shadow: 0px 0px 0px;
+
+}
+#result-btn:hover {
+    /* filter: brightness(50%); */
+    box-shadow: 7px 7px 15px; 
+    cursor: pointer;
+}
+#task {
+    position: relative;
+    /* top: 0px; */
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: green;
+    text-align: center;
+}
+#create {
+    display: flex;
+    position: relative;
+    left: 41%;
+    justify-content: center;
+    top: 10px;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0px 0px 0px; 
+
+
+}
+#create:hover {
+    /* filter: brightness(50%); */
+    box-shadow: 7px 7px 15px;
+    cursor: pointer;
+}
+#answer {
+    font-size: 45px;
+    display: flex;
+    margin-left: 32%;
+    position: relative;
+    top: 75px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: lightgreen;
+    border: 0;
+}
+/* #answer:hover {
+    box-shadow: 7px 7px 15px;
+} */
+#check {
+    display: flex;
+    position: relative;
+    left: 43.5%;
+    top: 150px;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 20px;
+    border: 0;
+    box-shadow: 0px 0px 0px;
+
+}
+#check:hover {
+    /* filter: brightness(50%); */
+    box-shadow: 7px 7px 15px; 
+    cursor: pointer;
+}

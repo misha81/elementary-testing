@@ -1,0 +1,101 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 1s ease 0s;
+  }
+  .popup:target {
+    opacity: 1;
+    visibility: visible;
+  }
+  .popup:target .popup-content {
+    transform: translate(0px, 0px);
+    opacity: 1;
+  }
+  .popup .popup-area {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: default;
+  }
+  .popup .popup-body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+  }
+  .popup .popup-content {
+    border-radius: 21px;
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    padding: 30px;
+    position: relative;
+    transition: all 1s ease 0s;
+    opacity: 0;
+    transform: translate(0px, -100%);
+  }
+  .popup .popup-content .input {
+    font-size: 24px;
+    display: flex;
+    align-items: left;
+    margin-bottom: 29px;
+    width: calc(100% / 1.6);
+    height: 57px;
+    background-color: #e2e2e2;
+    border: 0px;
+    border-radius: 15px;
+  }
+  .popup .popup-content .title {
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 24px;
+    color: #7c7c7c;
+    font-family: 'Istok Web';
+    padding-left: 10px;
+  }
+  .popup .popup-content .popup-close {
+    text-decoration: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #000;
+  }
+  .popup .popup-content img {
+    position: absolute;
+    width: calc(100% / 4);
+    height: auto;
+    right: calc(100% / 10);
+    top: calc(100% / 20);
+  }
+  .popup .popup-content .send {
+    text-decoration: none;
+    margin-top: 52px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: white;
+    background-color: darkred;
+    border-radius: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.12);
+    border: none;
+    padding: 10px 24px;
+    align-items: center;
+    cursor: pointer;
+  }
+  .popup .popup-content .thanks {
+    font-size: 48px;
+    margin-top: calc(100% / 4);
+    margin-bottom: calc(100% / 4);
+  }
+  

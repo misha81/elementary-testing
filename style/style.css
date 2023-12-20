@@ -1,0 +1,174 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+}
+  
+a {
+    width: 500px;
+    height: 215px;
+    margin: 5px;
+    background-color: #8bf092;
+    color: black;
+    border: none;
+    box-shadow: 0px 0px 0px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    padding-top: 10.5px;
+}
+.top {
+    text-align: center;
+}
+.column1 {
+    margin-right: 60px;
+}
+.chooseclass {
+    font-size: 50px;
+}
+.btntext {
+    font-size: 76px;
+}
+a:hover {
+    /* filter: brightness(50%); */
+    box-shadow: 7px 7px 15px;
+
+}
+img{
+    height: 220px;
+    width: auto;
+}
+
+.enterTasksText {
+    font-size: 75px;
+    display: flex;
+    justify-content: center;
+    color: green;
+    /* position: relative;
+    top: -50px; */
+}
+#amountOfTasks {
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-radius: 25px;
+    background-color: lightgreen;
+    border: 0;
+    box-shadow: 0px 0px 0px;
+}
+
+.amountOfTasksDiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.enterTasksTextDiv {
+    margin-top: 120px;
+}
+.startTestDiv {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    
+}
+#startTest {
+    font-size: 45px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: lightgreen;
+    border: 0;
+    box-shadow: 0px 0px 0px;
+}
+#startTest:hover {
+    /* filter: brightness(50%); */
+    box-shadow: 7px 7px 15px;
+    cursor: pointer;
+}
+
+#math-problem {
+    font-size: 51px;
+    display: flex;
+    justify-content: center;
+    color: green;
+    position: relative;
+    top: -250px;
+}
+#generate {
+    font-size: 50px;
+    display: flex;
+    margin-left: 40%;
+    position: relative;
+    top: -270px;
+    background-color: lightgreen;
+    border-radius: 20px;
+    border: 0;
+    padding: 20px;
+    box-shadow: 0px 0px 0px;
+}
+#generate:hover {
+    /* filter: brightness(50%); */
+    box-shadow: 7px 7px 15px;
+    cursor: pointer;
+}
+#typeAnswer {
+    font-size: 45px;
+    display: flex;
+    margin-left: 32%;
+    position: relative;
+    top: -205px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: lightgreen;
+    border: 0;
+}
+#submit {
+    font-size: 50px;
+    display: flex;
+    margin-left: 40%;
+    position: relative;
+    top: -150px;
+    background-color: lightgreen;
+    border-radius: 20px;
+    border: 0;
+    padding: 20px;
+    box-shadow: 0px 0px 0px;
+}
+#submit:hover {
+    /* filter: brightness(50%); */
+    box-shadow: 7px 7px 15px;
+    cursor: pointer;
+}
+#resText {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: green;
+
+}
+#resButton {
+    font-size: 40px;
+    border-radius: 20px;
+    background-color: lightgreen;
+    box-shadow: 0px 0px 0px;
+    padding: 20px;
+    border: 0;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 40%;
+}
+#resButton:hover {
+    /* filter: brightness(50%); */
+    box-shadow: 7px 7px 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,18 @@
+.left-arrow { 
+    position: relative;
+    top: -38.5%;
+    left: -9.5%;
+}
+.left-arrow-btn {
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+    border: 0;
+    border-radius: 20px;
+    background-color: lightgreen;
+    font-size: 50px;
+    box-shadow: 0px 0px 0px;
+    cursor: pointer;
+}
+.left-arrow-btn:hover {
+    box-shadow: 7px 7px 15px;
+}
